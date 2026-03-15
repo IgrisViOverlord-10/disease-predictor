@@ -23,11 +23,11 @@ Web Application → User Enters Symptoms → Django Backend Processes Input → 
 ## 🚀 Key Highlights
 
 - Built a Django web application for symptom input and disease prediction  
-- Performed data preprocessing and analysis on a symptom–disease dataset  
+- Performed data preprocessing and analysis using `dataset/Training.csv` and `dataset/Testing.csv`  
 - Trained and evaluated multiple machine learning models  
 - Compared models including Logistic Regression, KNN, Naïve Bayes, Decision Tree, Random Forest, and Gradient Boosting  
 - Selected **Logistic Regression** as the final model based on evaluation  
-- Saved the trained model as a **pickle file** and integrated it into the Django application for predictions  
+- Saved the trained model as a **pickle file** and integrated it into the Django application for predictions
 
 ---
 
