@@ -1,15 +1,12 @@
 # 🧬 Disease Prediction Web Application using Machine Learning
 
-A web-based application that predicts potential diseases based on symptoms entered by the user.  
-This project combines machine learning with a Django-based interface to provide an interactive platform for symptom-based disease prediction.
+A web-based application that predicts potential diseases based on symptoms entered by the user. This project combines machine learning with a Django-based interface to provide an interactive platform for symptom-based disease prediction.
 
 ---
 
 ## 📌 Project Overview
 
-This project was developed to explore how machine learning can be applied to healthcare-related prediction tasks.  
-The goal was to analyze a symptom–disease dataset, train multiple machine learning models, select the most suitable one, and integrate it into a web application for user interaction.  
-Users can enter symptoms through the web interface, and the system returns a predicted disease based on the trained model.
+This project was developed to explore how machine learning can be applied to healthcare-related prediction tasks. The goal was to analyze a symptom–disease dataset, train multiple machine learning models, select the most suitable one, and integrate it into a web application for user interaction. Users can enter symptoms through the web interface, and the system returns a predicted disease based on the trained model.
 
 ---
 
