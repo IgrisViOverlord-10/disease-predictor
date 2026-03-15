@@ -132,7 +132,7 @@ This repository currently includes:
 - Correlation heatmap between symptoms  
 - Model accuracy comparison outputs
 
-**Snapshots available in `Snapshots - 3.pdf` include:**
+( Snapshots available in `Snapshots - 3.pdf` )
 
 ---
 
