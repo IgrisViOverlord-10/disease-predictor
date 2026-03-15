@@ -94,12 +94,12 @@ This project helped demonstrate how a machine learning model can move from noteb
 
 It also provided practical exposure to:
 
-- data collection and dataset handling  
+- dataset handling using separate training and testing files  
 - data cleaning and preprocessing  
 - exploratory data analysis and visualization  
 - feature relationship analysis using heatmaps and graphs  
 - training and comparing multiple machine learning models  
-- model evaluation and final model selection  
+- model evaluation using test data  
 - model serialization using Pickle  
 - integrating a trained ML model with a Django backend  
 - processing user input through web forms  
