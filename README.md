@@ -1,0 +1,142 @@
+# 🧬 Disease Prediction Web Application using Machine Learning
+
+A web-based application that predicts potential diseases based on symptoms entered by the user.  
+This project combines machine learning with a Django-based interface to provide an interactive platform for symptom-based disease prediction.
+
+---
+
+## 📌 Project Overview
+
+This project was developed to explore how machine learning can be applied to healthcare-related prediction tasks.  
+The goal was to analyze a symptom–disease dataset, train multiple machine learning models, select the most suitable one, and integrate it into a web application for user interaction.  
+Users can enter symptoms through the web interface, and the system returns a predicted disease based on the trained model.
+
+---
+
+## ⚙️ Workflow
+
+**Phase 1 – Model Development**  
+Data Collection → Data Cleaning & Preprocessing → Exploratory Data Analysis (EDA) → Model Training & Comparison → Final Model Selection (**Logistic Regression**)
+
+**Phase 2 – Application Integration**  
+Web Application → User Enters Symptoms → Django Backend Processes Input → Logistic Regression Model (Pickle File) → Predicted Disease Displayed
+
+---
+
+## 🚀 Key Highlights
+
+- Built a Django web application for symptom input and disease prediction  
+- Performed data preprocessing and analysis on a symptom–disease dataset  
+- Trained and evaluated multiple machine learning models  
+- Compared models including Logistic Regression, KNN, Naïve Bayes, Decision Tree, Random Forest, and Gradient Boosting  
+- Selected **Logistic Regression** as the final model based on evaluation  
+- Saved the trained model as a **pickle file** and integrated it into the Django application for predictions  
+
+---
+
+## 🧠 Machine Learning Process
+
+The project was completed in two main parts:
+
+### Phase 1 – Model Development
+
+The machine learning workflow was carried out in **Jupyter Notebook**. The following steps were performed:
+
+- Collected and loaded the symptom–disease dataset  
+- Examined the dataset structure and prepared it for analysis  
+- Cleaned and preprocessed the data for machine learning  
+- Conducted **Exploratory Data Analysis (EDA)** to understand symptom patterns and disease distribution  
+- Used visualizations such as graphs and heatmaps to study relationships between symptoms  
+- Split the dataset into training and testing sets  
+- Trained multiple machine learning models  
+- Compared model performance using evaluation techniques  
+- Selected **Logistic Regression** as the final model for deployment  
+
+### Phase 2 – Web Application Integration
+
+After selecting the most suitable model:
+
+- The trained model was saved as a `.pkl` file  
+- The model was integrated into the Django backend  
+- A web form was created to collect symptom input from the user  
+- Backend logic processed the user input and sent it to the trained model  
+- The predicted disease result was displayed on the web interface  
+
+---
+
+## 🛠️ Tech Stack
+
+- **Python**
+- **Jupyter Notebook**
+- **Django**
+- **Pandas**
+- **NumPy**
+- **Scikit-learn**
+- **Pickle**
+- **HTML / CSS**
+
+---
+
+## 📊 Models Explored
+
+The following machine learning models were trained and evaluated:
+
+- Logistic Regression  
+- K-Nearest Neighbors (KNN)  
+- Naïve Bayes  
+- Decision Tree  
+- Random Forest  
+- Gradient Boosting  
+
+Among these, **Logistic Regression** was selected as the most suitable model for this project.
+
+---
+
+## 🎯 Project Outcome
+
+This project helped demonstrate how a machine learning model can move from notebook-based experimentation to a simple web application that allows user interaction and real-time prediction.
+
+It also provided practical exposure to:
+
+- data collection and dataset handling  
+- data cleaning and preprocessing  
+- exploratory data analysis and visualization  
+- feature relationship analysis using heatmaps and graphs  
+- training and comparing multiple machine learning models  
+- model evaluation and final model selection  
+- model serialization using Pickle  
+- integrating a trained ML model with a Django backend  
+- processing user input through web forms  
+- displaying prediction results in a user-friendly web interface  
+- understanding the workflow of deploying a notebook-trained model into a web-based application  
+
+---
+
+## 📂 Repository Contents
+
+This repository currently includes:
+
+- Symptom–disease dataset (`.csv`)  
+- Project screenshots  
+- README documentation  
+
+> Source code is not included in this repository.
+
+---
+
+## 📸 Project Snapshots
+
+- Django-based symptom input interface  
+- Predicted disease output screen  
+- Prognosis column distribution graph  
+- Correlation heatmap between symptoms  
+- Model accuracy comparison outputs
+
+**Snapshots available in `Snapshots - 3.pdf` include:**
+
+---
+
+## ⚠️ Disclaimer
+
+This project is intended for **research, learning, and educational purposes only**.  
+The predictions generated by the model may not always be accurate and should not be used for real medical diagnosis or treatment.
