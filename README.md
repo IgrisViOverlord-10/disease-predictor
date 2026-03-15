@@ -117,7 +117,7 @@ It also provided practical exposure to:
 This repository currently includes:
 
 - Symptom–disease dataset (`.csv`)  
-- Project screenshots  
+- Project snapshots  
 - README documentation  
 
 > Source code is not included in this repository.
