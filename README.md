@@ -39,15 +39,14 @@ The project was completed in two main parts:
 
 The machine learning workflow was carried out in **Jupyter Notebook**. The following steps were performed:
 
-- Collected and loaded the symptom–disease dataset  
+- Loaded the training and testing datasets from the `dataset` folder  
 - Examined the dataset structure and prepared it for analysis  
 - Cleaned and preprocessed the data for machine learning  
 - Conducted **Exploratory Data Analysis (EDA)** to understand symptom patterns and disease distribution  
 - Used visualizations such as graphs and heatmaps to study relationships between symptoms  
-- Split the dataset into training and testing sets  
-- Trained multiple machine learning models  
-- Compared model performance using evaluation techniques  
-- Selected **Logistic Regression** as the final model for deployment  
+- Trained multiple machine learning models using the training dataset  
+- Evaluated model performance using the testing dataset  
+- Compared model results and selected **Logistic Regression** as the final model for deployment
 
 ### Phase 2 – Web Application Integration
 
@@ -113,9 +112,10 @@ It also provided practical exposure to:
 
 This repository currently includes:
 
-- Symptom–disease dataset (`.csv`)  
-- Project snapshots  
-- README documentation  
+- `dataset/Training.csv`
+- `dataset/Testing.csv`
+- Project screenshots
+- README documentation
 
 > Source code is not included in this repository.
 
