@@ -48,10 +48,9 @@ The workflow covers:
 
 - **Final Model:** Logistic Regression  
 - **Accuracy:** Refer to project snapshots for detailed model performance  
-- Other models explored for comparison: KNN, Naïve Bayes, Decision Tree, Random Forest, Gradient Boosting  
+- Other models explored for comparison: Decision Tree, Random Forest, Gradient Boosting  
 
-**Why Logistic Regression was chosen:**  
-Although three models achieved 100% accuracy on the test dataset, Logistic Regression was selected for its simplicity, interpretability, and lower risk of overfitting. This makes it suitable for a practical deployment scenario where explainability and consistent generalization are important, especially in healthcare-related predictions. 
+Among the models tested, **Logistic Regression, K-Nearest Neighbors (KNN), and Naïve Bayes** achieved 100% accuracy on the test dataset. Logistic Regression was chosen for deployment due to its **simplicity, interpretability, and lower risk of overfitting**, making it suitable for practical use in a healthcare prediction scenario where explainability is important. 
 
 ---
 
