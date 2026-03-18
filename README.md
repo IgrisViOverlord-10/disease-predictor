@@ -1,86 +1,85 @@
 # 🧬 Disease Prediction Web Application using Machine Learning
 
-A web-based application that predicts potential diseases based on symptoms entered by the user. This project integrates a trained machine learning model with a Django-based interface to provide an interactive, user-friendly platform for symptom-based disease prediction.
+A web-based application that predicts potential diseases based on user-entered symptoms. Integrates a trained machine learning model with a Django interface for real-time predictions.
 
 ---
 
 ## 📌 Project Overview
 
-This project demonstrates how machine learning can be applied to healthcare prediction tasks. Users can enter their symptoms via a web interface, and the system returns a predicted disease based on a trained model.
+This project demonstrates how machine learning can be applied to healthcare prediction tasks. Users enter symptoms via a web interface, and the system returns a predicted disease based on a trained model.
 
-The workflow covers:
-
-1. Data preprocessing and analysis  
-2. Training and comparing multiple machine learning models  
-3. Deploying the final model in a Django web application  
+**Workflow Summary:**  
+- Data preprocessing & EDA  
+- Model training & comparison  
+- Deployment in a Django web app
 
 ---
 
 ## ⚙️ Workflow
 
 **Phase 1 – Model Development**  
-- Load and explore the dataset (`dataset/Training.csv` & `dataset/Testing.csv`)  
-- Clean and preprocess the data for ML  
-- Conduct exploratory data analysis (EDA) using visualizations (graphs, heatmaps)  
-- Train multiple models: Logistic Regression, KNN, Naïve Bayes, Decision Tree, Random Forest, Gradient Boosting  
-- Evaluate model performance using accuracy on the testing dataset  
-- Select Logistic Regression as the final model based on evaluation  
+- Load, clean, and preprocess `Training.csv` & `Testing.csv`  
+- Conduct exploratory data analysis (EDA) with graphs & heatmaps  
+- Train multiple models (Logistic Regression, KNN, Naïve Bayes, Decision Tree, Random Forest, Gradient Boosting)  
+- Evaluate performance on test data and select the final model  
 
 **Phase 2 – Web Application Integration**  
-- Serialize the trained model as a `.pkl` file  
-- Integrate the model with Django backend  
-- Create a web form for user symptom input  
-- Process input and predict the disease in real-time  
-- Display results in a clean, user-friendly interface  
+- Serialize the trained model (`.pkl`)  
+- Integrate into Django backend  
+- Create a web form for symptom input  
+- Process input, predict disease, and display results in real-time
 
 ---
 
 ## 🚀 Key Highlights
 
 - End-to-end pipeline from data preprocessing to web deployment  
-- Comparison of multiple ML models before final selection  
-- Real-time prediction through a Django web interface  
-- Visualization of symptom patterns, correlation heatmaps, and model comparison outputs  
+- Comparison of multiple models before final selection  
+- Real-time predictions via an interactive web interface  
+- Visualizations of symptom patterns, correlations, and model performance
 
 ---
 
 ## 🧠 Machine Learning Results
 
-- **Final Model:** Logistic Regression  
-- **Accuracy:** Refer to project snapshots for detailed model performance  
-- Other models explored for comparison: Decision Tree, Random Forest, Gradient Boosting  
+| Model                  | Accuracy (%) |
+|------------------------|-------------|
+| Logistic Regression    | 100         |
+| K-Nearest Neighbors (KNN) | 100      |
+| Naïve Bayes            | 100         |
+| Decision Tree          | 97.619      |
+| Random Forest          | 97.619      |
+| Gradient Boosting      | 97.619      |
 
-Among the models tested, **Logistic Regression, K-Nearest Neighbors (KNN), and Naïve Bayes** achieved 100% accuracy on the test dataset. Logistic Regression was chosen for deployment due to its **simplicity, interpretability, and lower risk of overfitting**, making it suitable for practical use in a healthcare prediction scenario where explainability is important. 
+**Why Logistic Regression was chosen:**  
+Although three models achieved 100% accuracy, Logistic Regression was selected for its **simplicity, interpretability, and lower risk of overfitting**, making it suitable for practical use in healthcare predictions.
 
 ---
 
 ## 🛠️ Tech Stack
 
-- Python  
-- Jupyter Notebook  
-- Django  
-- Pandas, NumPy  
-- Scikit-learn  
-- Pickle (for model serialization)  
+- Python, Jupyter Notebook, Django  
+- Pandas, NumPy, Scikit-learn  
+- Pickle (model serialization)  
 - HTML / CSS  
 
 ---
 
 ## 💡 What Makes This Project Unique
 
-- Complete end-to-end implementation from notebook experimentation to a deployed web app  
+- End-to-end implementation from notebook experimentation to web deployment  
 - Comparison of multiple models to select the best-performing one  
-- Interactive web interface for real-time predictions  
-- Focused on practical dataset handling and deployment workflow  
+- Real-time interactive predictions  
+- Practical dataset handling and deployment workflow
 
 ---
 
 ## 🔮 Opportunities for Extension
 
-- Evaluating additional metrics such as Precision and Recall to better understand model performance  
-- Expanding the dataset to cover more symptoms and diseases for broader applicability  
-- Optimizing the web interface for mobile users  
-- Exploring cloud deployment for scalable, real-time predictions
+- Evaluate additional metrics (Precision, Recall) for deeper analysis  
+- Expand dataset to cover more symptoms and diseases  
+- Optimize web interface for mobile users  
+- Explore cloud deployment for scalable real-time usage
 
 ---
 
@@ -88,10 +87,10 @@ Among the models tested, **Logistic Regression, K-Nearest Neighbors (KNN), and N
 
 - `dataset/Training.csv` – Training dataset  
 - `dataset/Testing.csv` – Testing dataset  
-- Project screenshots (available in Snapshots - 3.pdf)  
+- Project screenshots (Snapshots - 3.pdf)  
 - README documentation  
 
-> 🔒 Note: Source code is not included in this repository as it was part of an internship project. This repository showcases the project workflow, dataset usage, and results.  
+> 🔒 Note: Source code is not included in this repository as it was part of an internship project. This repository showcases the workflow, dataset usage, and results.
 
 ---
 
@@ -101,10 +100,10 @@ Among the models tested, **Logistic Regression, K-Nearest Neighbors (KNN), and N
 - Predicted disease output screen  
 - Prognosis column distribution graph  
 - Correlation heatmap between symptoms  
-- Model accuracy comparison outputs  
+- Model accuracy comparison outputs
 
 ---
 
-### ⚠️ Disclaimer
+## ⚠️ Disclaimer
 
-This project is for **educational and research purposes only**. Predictions may not always be accurate and should **not** be used for real medical diagnosis or treatment.
+For educational and research purposes only. Predictions may not always be accurate and should **not** be used for real medical diagnosis or treatment.
